@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import SimpleButton from './Components/SimpleButton';
+
+
 
 function App() {
 
@@ -8,8 +10,8 @@ function App() {
   return (
 
     <div>
-
-      Teri Mai Ka Bhook 
+      <h1> A Heading </h1>
+      <SimpleButton />
     </div>
   );
 
